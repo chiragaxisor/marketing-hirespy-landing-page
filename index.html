@@ -33,6 +33,45 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            .accordion-item {
+                border: none;
+                border-bottom: 1px solid #e0e0e0;
+            }
+
+            .accordion-button {
+                padding: 20px 0;
+                font-weight: 600;
+                color: #333;
+                background-color: transparent;
+            }
+
+            .accordion-button:not(.collapsed) {
+                color: #333;
+                background-color: transparent;
+                box-shadow: none;
+            }
+
+            .accordion-button:focus {
+                box-shadow: none;
+                border-color: transparent;
+            }
+
+            .accordion-button::after {
+                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+            }
+
+            .accordion-body {
+                padding: 0 0 20px 0;
+            }
+
+            .justify {
+                text-align: justify !important;
+                text-align-last: left !important;
+            }
+        </style>
+
     </head>
 
     <body>
@@ -147,21 +186,56 @@
         <!-- Carousel End -->
 
         <!-- Features Start -->
+        <div class="container-fluid  py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp " data-wow-delay="0.1s" style="">
+                    <h1 class="display-5 text-capitalize mb-3">Find the Perfect Space for Your Next Creative Project in Brisbane</h1>
+                    <br />
+                    <div class="justify"> 
+                        <p class="mb-2"> Are you looking to <b> hire affordable locations for photoshoot in Brisbane </b> or searching for a creative studio for content <b> creators in Brisbane </b> that truly captures your brand’s identity? Look no further than <b> Hirespy Spaces </b> — your one-stop platform for discovering, booking, and listing stunning locations across Brisbane. Whether you need a studio for your next brand shoot, a venue for a special event, or a cinematic space for film production, we’ve got you covered. </p>
+                        <br />  
+                        <p class="mt-2"> At  <b> Hirespy Spaces,</b> we specialize in connecting creators, brands, and event organizers with the most <b> unique event spaces in Brisbane.</b> From chic urban lofts and rooftop terraces to lush gardens and industrial warehouses, you can find a space that matches your vision and budget perfectly. Our mission is simple — to make location hiring seamless, affordable, and inspiring. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Features End -->
+
+
+        <!-- Features Start -->
         <div class="container-fluid feature py-5">
             <div class="container py-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-5 text-capitalize mb-3">Why Choose <span class="text-primary"> HireSpy? </span></h1>
-                    <p class="mb-0"> The smartest way for Australian homeowners to earn extra income from their property. </p>
+                    <h1 class="display-5 text-capitalize mb-3">Why Choose Hirespy Spaces for <span class="text-primary"> Your Next Project? </span></h1>
                 </div>
 
-                <div class="row g-4">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="justify"> 
+                            <p class="mb-2"> Brisbane is a city bursting with creativity and energy. Whether you’re shooting a commercial, planning a product launch, or filming a short movie, the right space can make all the difference. <b> Hirespy Spaces </b> helps you find and <b> hire unique event venue in Brisbane </b> without the stress of endless searching or negotiation.</p>
+                            <br />  
+                            <p class="mt-2">We take pride in offering a curated selection of locations tailored for photographers, filmmakers, brands, and event professionals. Each space listed on our platform is verified, well-maintained, and designed to bring your creative vision to life. </p>
+                        </div> 
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="">
+                            <div class="img-1">
+                                <img src="img/aD7VEKWbdPHk.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row g-4 mt-5">
                     <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item p-4" style="background-color: white; border-radius: 5px;">
                             <div class="service-icon mb-4">
                                 <i class="fa fa-phone-alt fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Phone Reservation</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?</p>
+                            <h5 class="mb-3">A Platform Built for Creators and Brands</h5>
+                            <p class="mb-0">If you’re a content creator or brand seeking an inspiring environment, you’ll love our creative studio for content creators in Brisbane and creative studio for content brands in Brisbane. From daylight-filled photography studios to artistic lofts, our spaces cater to every type of creative project.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp"  data-wow-delay="0.3s">
@@ -169,8 +243,8 @@
                             <div class="service-icon mb-4">
                                 <i class="fa fa-money-bill-alt fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">Special Rates</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?</p>
+                            <h5 class="mb-3">Affordable, Transparent Pricing</h5>
+                            <p class="mb-0">We understand the importance of budgeting in creative projects. That’s why our affordable venue hire in Brisbane options are clearly priced — no hidden costs, no surprises. Whether you need a studio for an hour or a location for a full-day shoot, Hirespy Spaces ensures affordability without compromising on quality.</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 wow fadeInUp"  data-wow-delay="0.5s">
@@ -178,14 +252,16 @@
                             <div class="service-icon mb-4">
                                 <i class="fa fa-road fa-2x"></i>
                             </div>
-                            <h5 class="mb-3">One Way Rental</h5>
-                            <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsam quasi quibusdam ipsa perferendis iusto?</p>
+                            <h5 class="mb-3">Easy Booking Process</h5>
+                            <p class="mb-0">With our user-friendly platform, it’s easier than ever to hire unique event space in Brisbane. Simply browse, compare, and book — all from one place. We take care of the details so you can focus on your creativity.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Features End -->
+
+        
 
 
         <!-- Services Start -->
@@ -229,8 +305,122 @@
         </div>
         <!-- Services End -->
 
-        <!-- About Start -->
+        <!-- Features Start -->
+        <div class="container-fluid feature py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                    <h1 class="display-5 text-capitalize mb-3">Explore Brisbane’s Best Creative and <span class="text-primary"> Event Spaces</span></h1>
+                </div>
+
+                <div class="row g-5">
+                    <div class="col-xl-6 wow  fadeInLeft " data-wow-delay="0.2s">
+                        <div class="">
+                            <div class="img-1">
+                                <img src="img/1.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="justify"> 
+                            <p class="mb-2"> At Hirespy Spaces, we believe every creative project deserves a setting that enhances its story. That’s why our listings include a diverse mix of modern, rustic, and themed venues. Whether you’re a photographer, filmmaker, influencer, or corporate event planner, our spaces can transform your ideas into reality.</p>
+                        </div> 
+                    </div>
+                    
+                </div>
+
+
+                <div class="row g-4 mt-5">
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="service-item p-4" style="background-color: white; border-radius: 5px;">
+                            <!-- <div class="service-icon mb-4">
+                                <i class="fa fa-phone-alt fa-2x"></i>
+                            </div> -->
+                            <h5 class="mb-3">Photography & Video Shoots</h5>
+                            <p class="mb-0">Searching to hire affordable locations for photoshoot in Brisbane? Our curated list of photography-friendly locations includes studios with natural light, outdoor scenic spots, and interiors with aesthetic appeal. Capture your content effortlessly in spaces that inspire creativity.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp"  data-wow-delay="0.3s">
+                        <div class="service-item p-4" style="background-color: white; border-radius: 5px;">
+                            <!-- <div class="service-icon mb-4">
+                                <i class="fa fa-money-bill-alt fa-2x"></i>
+                            </div> -->
+                            <h5 class="mb-3">Film and Production Spaces</h5>
+                            <p class="mb-0">Need a place for your next short film or brand ad? Hirespy Spaces offers multiple options for Brisbane space hire for film shooting and Brisbane locations hire for film shooting. From heritage buildings to urban alleys and modern interiors, you’ll find cinematic backdrops that make your production stand out.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 wow fadeInUp"  data-wow-delay="0.5s">
+                        <div class="service-item p-4" style="background-color: white; border-radius: 5px;">
+                            <!-- <div class="service-icon mb-4">
+                                <i class="fa fa-road fa-2x"></i>
+                            </div> -->
+                            <h5 class="mb-3">Corporate & Private Events</h5>
+                            <p class="mb-0">Whether it’s a business meeting, launch party, or a private celebration, you can hire unique event venue in Brisbane that reflects your style and purpose. We bring you options for small gatherings, large events, and everything in between.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
         <div class="container-fluid overflow-hidden about py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <div class="pb-5">
+                                <h1 class="display-5 text-capitalize">Empowering Brisbane’s <span class="text-primary"> Location Owners</span></h1>
+                                <!-- <p class="mb-0">We've built safety and control into every part of the HireSpy experience </p> -->
+                            </div>
+                            
+                            <p class="text-item my-4">Do you own a beautiful studio, event hall, or creative space? It’s time to turn it into a profitable asset! With Hirespy Spaces, you can easily list your locations for hire in Brisbane or list your space for hire in Brisbane and reach a community of creators, filmmakers, and brands actively looking for venues like yours.
+                            </p>
+                            <p class="text-item my-4 mt-5">We handle the visibility, promotion, and inquiries, so you can sit back and earn revenue from your property. Listing your space takes just a few minutes — upload images, describe your venue, set your price, and let the bookings come in!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="">
+                            <div class="img-1">
+                                <img src="img/2.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid overflow-hidden about">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="">
+                            <div class="img-1">
+                                <img src="img/4.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <div class="pb-5">
+                                <h1 class="display-5 text-capitalize">Affordable, Flexible, and Hassle-Free <span class="text-primary"> Space Hiring</span></h1>
+                                <!-- <p class="mb-0">We've built safety and control into every part of the HireSpy experience </p> -->
+                            </div>
+                            
+                            <p class="text-item my-4">Our goal at Hirespy Spaces is to simplify the way people discover and rent creative locations. We know that flexibility and affordability are key when it comes to affordable locations hire in Brisbane. That’s why we provide options for hourly, half-day, or full-day bookings, depending on your project requirements.
+                            Each space on our platform comes with detailed information — from amenities and size to lighting conditions and parking options — making it easier for you to make informed decisions.
+                            </p>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+        <!-- About Start -->
+        <div class="container-fluid overflow-hidden about">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
@@ -258,7 +448,7 @@
                     <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
                         <div class="">
                             <div class="img-1">
-                                <img src="img/aD7VEKWbdPHk.jpg" class="img-fluid rounded h-100 w-100" alt="">
+                                <img src="img/6.jpg" class="img-fluid rounded h-100 w-100" alt="">
                             </div>
                         </div>
                     </div>
@@ -270,29 +460,33 @@
         <!-- Car Steps Start -->
         <div class="container-fluid steps py-5">
             <div class="container py-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-5 text-capitalize text-white mb-3">Ready to Turn Your Space into Income? </h1>
-                    <p class="mb-0 text-white"> Join Australian's faster-growing property community. Start earning in under 5 minutes.  </p>
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
+                    <h1 class="display-5 text-capitalize text-white mb-3">Explore Brisbane’s Best Creative and Event Spaces </h1>
+                    
+                    <p class="mb-0 text-white"> At Hirespy Spaces, we believe every creative project deserves a setting that enhances its story. That’s why our listings include a diverse mix of modern, rustic, and themed venues. Whether you’re a photographer, filmmaker, influencer, or corporate event planner, our spaces can transform your ideas into reality.  </p>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4 justify">
+                    <div class="col-lg-4 wow fadeInUp " data-wow-delay="0.1s">
                         <div class="steps-item p-4 mb-4">
-                            <h4></h4>
-                            <p class="mb-0"><i class="fa fa-check-circle text-white me-1"></i> No upfront fees </p>
+                            <h4>Photography & Video Shoots</h4>
+                            <hr style="color: white;" />
+                            <p class="mt-1"> Searching to  <b> hire affordable locations for photoshoot in Brisbane? </b> Our curated list of photography-friendly locations includes studios with natural light, outdoor scenic spots, and interiors with aesthetic appeal. Capture your content effortlessly in spaces that inspire creativity. </p>
                             <!-- <div class="setps-number">01.</div> -->
                         </div>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="steps-item p-4 mb-4">
-                            <h4></h4>
-                            <p class="mb-0"><i class="fa fa-check-circle text-white me-1"></i> Cancel anytime</p>
+                             <h4>Film and Production Spaces</h4>
+                            <hr style="color: white;" />
+                            <p class="mt-1"> Need a place for your next short film or brand ad? <b> Hirespy Spaces </b> offers multiple options for <b> Brisbane space hire for film shooting </b> and <b> Brisbane locations hire for film shooting.</b> From heritage buildings to urban alleys and modern interiors, you’ll find cinematic backdrops that make your production stand out.</p>
                             <!-- <div class="setps-number">02.</div> -->
                         </div>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="steps-item p-4 mb-4">
-                            <h4></h4>
-                            <p class="mb-0"> <i class="fa fa-check-circle text-white me-1"></i> You're in control</p>
+                             <h4>Corporate & Private Events</h4>
+                            <hr style="color: white;" />
+                            <p class="mt-1"> Whether it’s a business meeting, launch party, or a private celebration, you can <b> hire unique event venue in Brisbane  </b> that reflects your style and purpose. We bring you options for small gatherings, large events, and everything in between.</p>
                             <!-- <div class="setps-number">03.</div> -->
                         </div>
                     </div>
@@ -301,6 +495,54 @@
         </div>
         <!-- Car Steps End -->
         
+                <!-- Features Start -->
+        <div class="container-fluid overflow-hidden about py-5">
+            <div class="container py-5">
+
+                <div class="col-xl-12 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="about-item">
+                            <div class="pb-2">
+                                <h3 class="display-6 text-capitalize">Partner with Us to Showcase Your Space</h3>
+                            </div>
+                            
+                            <p class="text-item my-4">If you have a property that deserves attention, join our growing community of hosts who list your space for hire in Brisbane. By showcasing your venue on our platform, you reach thousands of potential renters — from film crews and photographers to brands and event planners. </p>
+                            <p class="text-item my-4 mt-1">We provide support, exposure, and flexibility so you can manage bookings on your terms. Hirespy Spaces values transparency and creativity, helping both owners and renters connect effortlessly.</p>
+                        </div>
+                        <div class="about-item">
+                            <div class="pb-2">
+                                <h1 class="display-6 text-capitalize">Trusted by Creatives and Brands Across Brisbane</h1>
+                            </div>
+                            
+                            <p class="text-item my-4">Our platform has become a trusted name among professionals seeking affordable venue hire in Brisbane. From startups and influencers to production companies, our users rely on us to find spaces that align with their aesthetic goals and financial plans.
+                            </p>
+                            <p class="text-item my-4 mt-1">Whether it’s a minimalist studio for a product shoot or a grand hall for a corporate launch, Hirespy Spaces connects you with the best locations Brisbane has to offer.
+                            </p>
+                        </div>
+                        <div class="about-item">
+                            <div class="pb-2">
+                                <h1 class="display-6 text-capitalize">Brisbane’s Leading Platform for Location and Venue Hire</h1>
+                            </div>
+                            
+                            <p class="text-item my-4">Choosing to hire unique event space in Brisbane through Hirespy Spaces ensures a smooth experience from start to finish. Every space is handpicked for quality, accessibility, and atmosphere — ensuring your photoshoot, event, or film project looks and feels extraordinary.
+                            </p>
+                            <p class="text-item my-4 mt-1">We’re not just a platform; we’re a community of creators, storytellers, and innovators shaping Brisbane’s creative landscape.
+                            </p>
+                        </div>
+                        <div class="about-item">
+                            <div class="pb-2">
+                                <h1 class="display-6 text-capitalize">Book Your Perfect Brisbane Space Today</h1>
+                            </div>
+                            
+                            <p class="text-item my-4">Don’t waste hours searching for the right venue — let Hirespy Spaces do the hard work for you. Explore, compare, and hire affordable locations for photoshoot in Brisbane or any event venue that suits your vision.
+                            </p>
+                            <p class="text-item my-4 mt-1">Start today and discover why creators and professionals across the city choose Hirespy Spaces for their location and venue needs. Whether you’re planning your next big event, brand shoot, or film production, the perfect space is waiting for you in Brisbane.
+                            </p>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+        <!-- Features End -->
 
         
         <!-- Testimonial Start -->
@@ -308,7 +550,7 @@
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
                     <h1 class="display-5 text-capitalize mb-3">What Hosts Are <span class="text-primary"> Saying</span></h1>
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio,
+                    <!-- <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut amet nemo expedita asperiores commodi accusantium at cum harum, excepturi, quia tempora cupiditate! Adipisci facilis modi quisquam quia distinctio, -->
                     </p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -482,115 +724,82 @@
         <!-- Footer End -->
         
 
-        <style>
-            .accordion-item {
-                border: none;
-                border-bottom: 1px solid #e0e0e0;
-            }
-
-            .accordion-button {
-                padding: 20px 0;
-                font-weight: 600;
-                color: #333;
-                background-color: transparent;
-            }
-
-            .accordion-button:not(.collapsed) {
-                color: #333;
-                background-color: transparent;
-                box-shadow: none;
-            }
-
-            .accordion-button:focus {
-                box-shadow: none;
-                border-color: transparent;
-            }
-
-            .accordion-button::after {
-                background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23333'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-            }
-
-            .accordion-body {
-                padding: 0 0 20px 0;
-            }
-        </style>
-
 
         <!-- Features Start -->
         <div class="container-fluid  py-5">
-        <div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
-            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h1 class="display-5 text-capitalize mb-3">Frequently Asked  <span class="text-primary">Questions</span> </h1>
-                </div>
+            <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
+                            <h1 class="display-5 text-capitalize mb-3">Frequently Asked  <span class="text-primary">Questions</span> </h1>
+                        </div>
 
-            <!-- <h2 class="mb-4">Frequently Asked </h2> -->
-            <div class="accordion fadeInUp" id="faqAccordion">
-                <div class="accordion-item ">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                               1. How do I find affordable venues in Brisbane for my shoot or event?
-                            </button>
-                    </h2>
-                    <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            You can easily browse <b> Hirespy Spaces </b> to explore a variety of <b> affordable venue hire in Brisbane</b> options. Our listings include detailed descriptions, photos, and prices to help you choose the right one for your needs.
+                    <!-- <h2 class="mb-4">Frequently Asked </h2> -->
+                    <div class="accordion fadeInUp" id="faqAccordion">
+                        <div class="accordion-item ">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
+                                    1. How do I find affordable venues in Brisbane for my shoot or event?
+                                    </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    You can easily browse <b> Hirespy Spaces </b> to explore a variety of <b> affordable venue hire in Brisbane</b> options. Our listings include detailed descriptions, photos, and prices to help you choose the right one for your needs.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                                2. Can I book a space for short durations like a few hours?
-                            </button>
-                    </h2>
-                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Absolutely. Many of our <b>affordable locations hire in Brisbane </b> options allow hourly or half-day bookings, giving you the flexibility to book only for the time you need.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+                                        2. Can I book a space for short durations like a few hours?
+                                    </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely. Many of our <b>affordable locations hire in Brisbane </b> options allow hourly or half-day bookings, giving you the flexibility to book only for the time you need.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                                3. How can I list my property for rent on Hirespy Spaces?
-                            </button>
-                    </h2>
-                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            It’s simple! Visit our website and follow the steps to  <b>list your locations for hire in Brisbane</b>. Provide details, upload photos, and set your pricing. Once approved, your listing will go live for potential renters to find.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+                                        3. How can I list my property for rent on Hirespy Spaces?
+                                    </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    It’s simple! Visit our website and follow the steps to  <b>list your locations for hire in Brisbane</b>. Provide details, upload photos, and set your pricing. Once approved, your listing will go live for potential renters to find.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                4. Do you offer spaces suitable for film production?
-                            </button>
-                    </h2>
-                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            Yes! We have a curated collection perfect for <b> Brisbane space hire for film shooting </b> and <b> Brisbane locations hire for film shooting,</b> including studios, outdoor sets, and commercial venues.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                        4. Do you offer spaces suitable for film production?
+                                    </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes! We have a curated collection perfect for <b> Brisbane space hire for film shooting </b> and <b> Brisbane locations hire for film shooting,</b> including studios, outdoor sets, and commercial venues.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                                5. Why choose Hirespy Spaces over other platforms?
-                            </button>
-                    </h2>
-                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                        <div class="accordion-body">
-                            <b> Hirespy Spaces</b> stands out for its curated listings, transparent pricing, and excellent customer support. We cater specifically to creative professionals looking to hire <b> unique event venue in Brisbane </b> and studios for professional content creation.
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
+                                        5. Why choose Hirespy Spaces over other platforms?
+                                    </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    <b> Hirespy Spaces</b> stands out for its curated listings, transparent pricing, and excellent customer support. We cater specifically to creative professionals looking to hire <b> unique event venue in Brisbane </b> and studios for professional content creation.
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
         </div>
         <!-- Features End -->
 
